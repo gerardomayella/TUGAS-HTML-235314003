@@ -1,0 +1,44 @@
+h1 {
+  text-align: "center";
+  color: red;
+}
+
+h3,
+h4,
+h5,
+h2 {
+  text-align: "center";
+  font-size: 40px;
+}
+
+p {
+  font-size: 30px;
+  color: black;
+}
+
+img {
+  width: 50;
+}
+
+button {
+  background-color: rgb(255, 179, 0);
+  color: rgb(82, 1, 1);
+  font-size: 20px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 10px;
+  display: inline-block;
+}
+
+table {
+  width: 50%;
+  border-collapse: collapse;
+  font-size: large;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+body {
+  background-image: url();
+}
