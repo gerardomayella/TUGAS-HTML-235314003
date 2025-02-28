@@ -29,6 +29,7 @@ button {
   cursor: pointer;
   margin: 10px;
   display: inline-block;
+  transition: background-color 0.3s ease;
 }
 
 table {
@@ -40,5 +41,40 @@ table {
 }
 
 body {
-  background-image: url();
+  background-image: url(https://plus.unsplash.com/premium_photo-1713009133028-1e179805c708?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+button:hover {
+  background-color: #45a049;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+.animated-text {
+  color: #000;
+  animation: bounce 3s ease-in-out infinite alternate;
 }
